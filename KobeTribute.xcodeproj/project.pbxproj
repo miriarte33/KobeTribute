@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		35731F1E244D1ADC006EB643 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35731F1D244D1ADC006EB643 /* AppDelegate.swift */; };
-		35731F20244D1ADC006EB643 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 35731F1F244D1ADC006EB643 /* art.scnassets */; };
 		35731F22244D1ADC006EB643 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35731F21244D1ADC006EB643 /* ViewController.swift */; };
 		35731F25244D1ADC006EB643 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35731F23244D1ADC006EB643 /* Main.storyboard */; };
 		35731F27244D1ADE006EB643 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35731F26244D1ADE006EB643 /* Assets.xcassets */; };
 		35731F2A244D1ADE006EB643 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35731F28244D1ADE006EB643 /* LaunchScreen.storyboard */; };
+		35731F33244D1BC0006EB643 /* gamewinneroverwade.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 35731F32244D1BC0006EB643 /* gamewinneroverwade.mp4 */; };
+		35731F35244D20CE006EB643 /* okcintro.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 35731F34244D20CD006EB643 /* okcintro.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		35731F1A244D1ADC006EB643 /* KobeTribute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KobeTribute.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35731F1D244D1ADC006EB643 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		35731F1F244D1ADC006EB643 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		35731F21244D1ADC006EB643 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		35731F24244D1ADC006EB643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		35731F26244D1ADE006EB643 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35731F29244D1ADE006EB643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35731F2B244D1ADE006EB643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35731F32244D1BC0006EB643 /* gamewinneroverwade.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = gamewinneroverwade.mp4; sourceTree = "<group>"; };
+		35731F34244D20CD006EB643 /* okcintro.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = okcintro.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +58,9 @@
 		35731F1C244D1ADC006EB643 /* KobeTribute */ = {
 			isa = PBXGroup;
 			children = (
+				35731F34244D20CD006EB643 /* okcintro.mp4 */,
+				35731F32244D1BC0006EB643 /* gamewinneroverwade.mp4 */,
 				35731F1D244D1ADC006EB643 /* AppDelegate.swift */,
-				35731F1F244D1ADC006EB643 /* art.scnassets */,
 				35731F21244D1ADC006EB643 /* ViewController.swift */,
 				35731F23244D1ADC006EB643 /* Main.storyboard */,
 				35731F26244D1ADE006EB643 /* Assets.xcassets */,
@@ -125,10 +128,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35731F20244D1ADC006EB643 /* art.scnassets in Resources */,
 				35731F2A244D1ADE006EB643 /* LaunchScreen.storyboard in Resources */,
 				35731F27244D1ADE006EB643 /* Assets.xcassets in Resources */,
 				35731F25244D1ADC006EB643 /* Main.storyboard in Resources */,
+				35731F35244D20CE006EB643 /* okcintro.mp4 in Resources */,
+				35731F33244D1BC0006EB643 /* gamewinneroverwade.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
