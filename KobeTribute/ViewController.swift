@@ -40,6 +40,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.session.run(configuration)
     }
     
+    
+    
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         
@@ -79,6 +81,15 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         }
         
         return node
+    }
+    
+    //This runs when a nodes properties have been updated
+    func renderer(_ renderer: SCNSceneRenderer, didUpdate node: SCNNode, for anchor: ARAnchor) {
+        if node.isHidden == true {
+            if let imageAnchor = anchor as? ARImageAnchor {
+                sceneView.session.remove(anchor: imageAnchor)
+            }
+        }
     }
 
     
